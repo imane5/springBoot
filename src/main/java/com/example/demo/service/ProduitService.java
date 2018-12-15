@@ -21,7 +21,7 @@ public class ProduitService {
 		return produitRepo.saveAndFlush(p);
 	}
 	public Produit deleteProd(long id) {
-		return produitRepo.deleteById(id);
+		return null;
 	}
 
 }
